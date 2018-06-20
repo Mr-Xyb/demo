@@ -7,7 +7,7 @@
  */
 namespace app\components;
 class MenuList{
-    public static function getList(){ 
+    public static function getList(){
         return [
             'options' => ['class' => 'sidebar-menu tree', 'data-widget'=> 'tree'],
             'items' => [
