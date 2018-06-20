@@ -12,8 +12,9 @@ class MenuList{
             'options' => ['class' => 'sidebar-menu tree', 'data-widget'=> 'tree'],
             'items' => [
                 ['label' => 'RBAC权限管理', 'options' => ['class' => 'header']],
-                ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii']],
-                ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug']],
+                ['label' => '权限管理', 'icon' => 'file-code-o', 'url' => ['/admin']],
+                ['label' => '菜单管理', 'icon' => 'file-code-o', 'url' => ['/admin/menu']],
+                /*['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug']],
                 [
                     'label' => 'Some tools',
                     'icon' => 'share',
@@ -39,7 +40,7 @@ class MenuList{
                             ],
                         ],
                     ],
-                ],
+                ],*/
             ],
         ];
     }
