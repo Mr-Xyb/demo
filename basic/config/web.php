@@ -51,6 +51,11 @@ $config = [
             ],
         ],
         */
+        'modules' => [
+            'user' => [
+                'class' => 'dektrium\user\Module',
+            ],
+        ],
         'view' => [
             'theme' => [
                 'pathMap' => [
